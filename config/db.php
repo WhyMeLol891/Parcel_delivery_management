@@ -1,8 +1,8 @@
 <?php
 $host    = '127.0.0.1'; // Use 127.0.0.1 instead of 'localhost' for faster PDO connection
-$db      = 'parcel_db';
-$user    = 'root';
-$pass    = '';          // Default XAMPP password is empty (''). If using MAMP, it might be 'root'.
+$db      = 'synergy1_derricklim_parcel_delivery_management';
+$user    = 'synergy1_yenping';
+$pass    = 'R.zb0ZwEuGZ}*fW2';          // Default XAMPP password is empty (''). If using MAMP, it might be 'root'.
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
