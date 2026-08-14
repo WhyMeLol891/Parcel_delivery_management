@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = trim($_POST['password'] ?? '');
 
     try {
-        $pdo = new PDO("mysql:host=127.0.0.1;dbname=parcel_db;charset=utf8mb4", "root", "");
+        $pdo = new PDO("mysql:host=127.0.0.1;dbname=synergy1_derricklim_parcel_delivery_management;charset=utf8mb4", "synergy1_yenping", "R.zb0ZwEuGZ}*fW2");
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         $stmt = $pdo->prepare("SELECT * FROM users WHERE email = ? LIMIT 1");
