@@ -15,7 +15,7 @@ if (isset($_GET['logout'])) {
 
 // 2. Database Connection
 try {
-    $pdo = new PDO("mysql:host=127.0.0.1;dbname=parcel_db;charset=utf8mb4", "root", "");
+    $pdo = new PDO("mysql:host=127.0.0.1;dbname=parcel_db;charset=utf8mb4", "synergy1_yenping", "R.zb0ZwEuGZ}*fW2");
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 } catch (PDOException $e) {
